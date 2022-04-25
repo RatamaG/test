@@ -8,7 +8,7 @@ func TestSuma(t *testing.T) {
 	
 	if valor != 30 {
 	
-		t.Error("Se esperaba 30 y se obtuvo", valor)
+		t.Errorf("Se esperaba %d y tiene %d",10,valor)
 	
 	}
 }
